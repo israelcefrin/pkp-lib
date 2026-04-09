@@ -1,0 +1,56 @@
+name: Accessibility Issue
+description: Report an accessibility bug or improvement
+title: "[A11Y]: "
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve accessibility! This template helps you report accessibility issues in a way that makes them easier to reproduce and fix.
+        
+        **Tip**: Include as much detail as you can, but don't worry if you can't fill everything out. Any information helps!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the accessibility issue?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can someone else reproduce this issue?
+      placeholder: |
+        1. Navigate to [URL]
+        2. Tab to the search input
+        3. Observe that...
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Application and version
+      description: What application are you using?
+      placeholder: "e.g., OJS version 3.5.0-1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: action
+    attributes:
+      label: Action
+      description: Describe action that can be taken to remediate the issue. 
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Screenshots, recordings, code snippets, OS, browser version or audit findings
+    validations:
+      required: false
