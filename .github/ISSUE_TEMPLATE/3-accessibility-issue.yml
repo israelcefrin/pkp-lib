@@ -27,7 +27,7 @@ body:
         2. Tab to the search input
         3. Observe that...
     validations:
-      required: false
+      required: true
 
   - type: input
     id: version
