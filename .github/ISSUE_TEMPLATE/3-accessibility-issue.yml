@@ -34,7 +34,7 @@ body:
     attributes:
       label: Application and version
       description: What application are you using?
-      placeholder: "e.g., OJS version 3.5.0-1"
+      placeholder: "OJS, OMP or OPS version X.X.X-X"
     validations:
       required: true
 
