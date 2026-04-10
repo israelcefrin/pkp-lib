@@ -1,5 +1,5 @@
 name: Accessibility Issue
-description: Report an accessibility bug or improvement
+description: File an accessibility issue in OJS, OMP, or OPS.
 title: "[A11Y]: "
 labels: ["Accessibility"]
 body:
