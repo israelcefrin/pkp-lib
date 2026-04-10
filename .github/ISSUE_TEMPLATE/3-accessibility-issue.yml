@@ -1,7 +1,7 @@
 name: Accessibility Issue
 description: Report an accessibility bug or improvement
 title: "[A11Y]: "
-labels: ["accessibility"]
+labels: ["Accessibility"]
 body:
   - type: markdown
     attributes:
