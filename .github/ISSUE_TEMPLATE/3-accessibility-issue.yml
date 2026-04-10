@@ -50,6 +50,6 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Screenshots, recordings, code snippets, OS, browser version or audit findings
+      description: Screenshots, videos, code snippets, logs, OS, browser version, or audit findings.
     validations:
       required: false
